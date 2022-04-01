@@ -1,7 +1,7 @@
 /*
  * @Author: losting
  * @Date: 2022-04-01 16:05:12
- * @LastEditTime: 2022-04-01 17:38:21
+ * @LastEditTime: 2022-04-01 18:20:32
  * @LastEditors: losting
  * @Description: 
  * @FilePath: \rollup-template\src\index.ts
@@ -48,11 +48,11 @@ export const fibonaci = (i: number): number => {
   return fibonaci[i - 1] + fibonaci[i - 2]
 }
 
-(function() {
-  const root: any = document.querySelector("#root")
-  const inner = getPerson('ee')
-  root.innerHTML = `姓名：${inner?.name},年龄：${inner?.age}岁...`
-}())
+// (function() {
+//   const root: any = document.querySelector("#root")
+//   const inner = getPerson('ee')
+//   root.innerHTML = `姓名：${inner?.name},年龄：${inner?.age}岁...`
+// }())
 
 
 
